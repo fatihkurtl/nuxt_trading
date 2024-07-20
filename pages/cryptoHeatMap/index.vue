@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="mx-auto mt-2">
+  <section class="mx-auto mt-2 p-4">
     <CryptoHeatMap :options="{
       dataSource: 'Crypto',
       width: '100%',
