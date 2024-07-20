@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col lg:flex-row mx-auto mt-2 space-y-4 lg:space-y-0 lg:space-x-4 p-4">
+  <section class="flex flex-col lg:flex-row mx-auto mt-2 space-y-4 lg:space-y-0 lg:space-x-4 p-4">
     <div class="flex-1">
       <MarketData :options="{
         width: '100%',
@@ -217,7 +217,7 @@
         ],
       }" />
     </div>
-  </div>
+  </section>
 </template>
 
 <style></style>

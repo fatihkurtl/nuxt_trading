@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="mx-auto mt-2 px-4">
+  <section class="mx-auto mt-2 px-4">
     <div class="flex justify-center mt-6 mb-6">
       <NuxtLink to="/cryptoHeatMap"
         class="flex items-center text-lg font-semibold text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition duration-300 ease-in-out">
@@ -24,7 +24,7 @@
       displayCurrency: 'USD',
       locale: 'en',
     }" />
-  </div>
+  </section>
 </template>
 
 <style></style>

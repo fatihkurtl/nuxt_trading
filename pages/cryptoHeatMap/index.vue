@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="mx-auto mt-2">
+  <section class="mx-auto mt-2">
     <CryptoHeatMap :options="{
       dataSource: 'Crypto',
       width: '100%',
@@ -18,7 +18,7 @@
       isZoomEnabled: true,
       hasSymbolTooltip: true,
     }" />
-  </div>
+  </section>
 </template>
 
 <style></style>
