@@ -14,8 +14,9 @@ const { dropdown, dropdownElement, toggleDropdown } = useMobileDropdown()
     <div ref="dropdownElement" class="flex flex-wrap items-center justify-between mx-auto p-4">
       <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="/assets/trade.png" class="h-8" alt="Flowbite Logo" />
-        <span
-          class="self-center text-2xl font-extrabold whitespace-nowrap text-gray-200 dark:text-white">NuxyTrade</span>
+        <span class="self-center text-2xl font-extrabold whitespace-nowrap text-gray-200 dark:text-white">NuxyTrade
+          <span class="text-sm text-gray-400 dark:text-gray-500 ml-2">v1.0 Beta</span>
+        </span>
       </NuxtLink>
       <button @click="toggleDropdown" data-collapse-toggle="navbar-solid-bg" type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
