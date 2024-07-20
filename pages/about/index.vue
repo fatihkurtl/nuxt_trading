@@ -32,7 +32,7 @@
           <NuxtLink to="/contact" class="text-blue-500 dark:text-blue-400 hover:underline">{{ $t('contactUs') }}</NuxtLink>.
         </p>
         <p>
-          Sincerely,<br />
+          {{ $t('sincerely') }},<br />
           [Your Website Team]
         </p>
       </div>

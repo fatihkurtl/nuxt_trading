@@ -3,11 +3,9 @@
 
 <template>
   <div class="mx-auto mt-2 px-4">
-    <!-- Heatmap Link with Icon -->
     <div class="flex justify-center mt-6 mb-6">
       <NuxtLink to="/cryptoHeatMap"
         class="flex items-center text-lg font-semibold text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition duration-300 ease-in-out">
-        <!-- Heroicon -->
         <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

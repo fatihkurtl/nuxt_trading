@@ -14,7 +14,7 @@
         <NuxtLink to="/about" class="hover:underline me-4 md:me-6">{{ $t('aboutUs') }}</NuxtLink>
       </li>
       <li>
-        <a href="#" class="hover:underline">{{ $t('contact') }}</a>
+        <NuxtLink to="/contact" class="hover:underline">{{ $t('contact') }}</NuxtLink>
       </li>
     </ul>
   </footer>

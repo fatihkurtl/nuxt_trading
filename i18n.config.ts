@@ -15,6 +15,15 @@ export default defineI18nConfig(() => ({
         viewHmap: 'View Heatmap',
         contactUs: 'contact us',
         footerInfo: 'All Rights Reserved',
+        sincerely: 'Sincerely',
+        yourEmail: 'Your Email',
+        // emailPlaceholder: 'name@example.com',
+        subject: 'Subject',
+        subjectPlaceholder: 'Let us know how we can help you',
+        yourMessage: 'Your Message',
+        messagePlaceholder: 'Leave a comment...',
+        contactText: 'Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.',
+        sendMessage: 'Send Message',
       },
       tr: {
         crypto: 'Kripto Para',
@@ -29,6 +38,15 @@ export default defineI18nConfig(() => ({
         viewHmap: 'Isı Haritasını Görüntüle',
         contactUs: 'bize ulaşın',
         footerInfo: 'Tüm Hakları Saklıdır',
+        sincerely: 'Saygılarımızla',
+        yourEmail: 'E-posta Adresiniz',
+        // emailPlaceholder: 'isim@örnek.com',
+        subject: 'Konu',
+        subjectPlaceholder: 'Size nasıl yardımcı olabileceğimizi bize bildirin',
+        yourMessage: 'Mesajınız',
+        messagePlaceholder: 'Yorum bırakın...',
+        contactText: 'Teknik bir sorun mu yaşadınız? Beta özelliği hakkında geri bildirim mi göndermek istiyorsunuz? İş planımız hakkında ayrıntılar mı gerekiyor? Bize bildirin.',
+        sendMessage: 'Mesaj gönder',
       }
     }
   }))

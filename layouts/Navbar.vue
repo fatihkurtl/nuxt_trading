@@ -11,11 +11,11 @@ const { dropdown, dropdownElement, toggleDropdown } = useMobileDropdown()
 <template>
 
   <nav class="border-gray-200 bg-gray-800 dark:bg-gray-800 dark:border-gray-700">
-    <div ref="dropdownElement" class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div ref="dropdownElement" class="flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
         <span
-          class="self-center text-2xl font-extrabold whitespace-nowrap text-gray-200 dark:text-white">Flowbite</span>
+          class="self-center text-2xl font-extrabold whitespace-nowrap text-gray-200 dark:text-white">NuxyTrade</span>
       </a>
       <button @click="toggleDropdown" data-collapse-toggle="navbar-solid-bg" type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
