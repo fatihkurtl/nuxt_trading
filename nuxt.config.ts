@@ -79,6 +79,7 @@ export default defineNuxtConfig({
         { rel: "canonical", href: "https://yourdomain.com" },
       ],
     },
+    pageTransition: { name: "page", mode: "out-in" },
   },
   robots: {
     rules: [
