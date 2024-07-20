@@ -18,7 +18,6 @@ export default defineNuxtConfig({
       { code: "en", iso: "en-US", name: "English" },
       { code: "tr", iso: "tr-TR", name: "Türkçe" },
     ],
-    defaultLocale: "en",
   },
   css: ["~/assets/css/main.css"],
   app: {
